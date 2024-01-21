@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../Nikita2/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  padding-left: 24px;
+  padding-top: 15px;
+  box-shadow: 2px 2px 2px #7e7e82;
+  position: absolute;
+  left: 0;
+  width: 320px;
+  height: 234px;
+  overflow: scroll;
+}
+
+.header__title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #7e7e82;
+  margin-bottom: 34px;
+}
+
+.main__btn {
+  background-color: #ffffff;
+  padding: 15px;
+  height: 100%;
+  width: 194px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 0px, 152px;
+}
+
+.main__swiperItem {
+  width: 224px;
+  height: 72px;
+  padding: 15px;
+  margin-right: 24px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main__swiper {
+  display: flex;
+  margin-bottom: 17px;
+}
+
+.lenovo {
+  background-image: url("./img/Lenovo.svg"), url("./img/arrow.svg");
+}
+.samsung {
+  background-image: url("./img/Samsung.svg"), url("./img/arrow.svg");
+}
+.apple {
+  background-image: url("./img/Apple.svg"), url("./img/arrow.svg");
+}
+
+.viewsonic {
+  background-image: url("./img/ViewSonic.svg"), url("./img/arrow.svg");
+}
+
+.bosch {
+  background-image: url("./img/Bosch.svg"), url("./img/arrow.svg");
+}
+
+.hp {
+  background-image: url("./img/hp.svg"), url("./img/arrow.svg");
+}
+
+.acer {
+  background-image: url("./img/acer.svg"), url("./img/arrow.svg");
+}
+
+.sony {
+  background-image: url("./img/sony.svg"), url("./img/arrow.svg");
+}
+
+.main__show-all {
+  color: #1b1c21;
+  display: none;
+}
+
+.main__swiper-pagination {
+  display: flex;
+  margin-bottom: 35px;
+  margin-top: 15px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+
+.main__swiperBullet {
+  margin-right: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #979797;
+  border-radius: 50%;
+}
