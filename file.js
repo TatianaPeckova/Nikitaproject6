@@ -1,10 +1,10 @@
 // Инициализируем Swiper
-/*new Swiper(".main__swiper", {
-pagination: {
-el: ".main__swiper-pagination",
-clickable: true,
-},
-});*/
+new Swiper(".swiper", {
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
 const showAll = document.querySelector(".main__show-all");
 const normalHeight = document.querySelector(".wrapper");
